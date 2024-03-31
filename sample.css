@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text for better visibility */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #0056b3; /* Slightly darker blue for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #fff; /* White title for visibility */
+}
+
+button {
+    background-color: #ffc107; /* A contrasting color, like yellow */
+    color: black; /* Black text for visibility */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 10px;
+        box-shadow: none;
+    }
+}
